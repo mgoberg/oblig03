@@ -1,2 +1,4 @@
 # oblig03
-Obligatorisk oppgave
+
+Martin Goberg
+Versjon: Windows 10 Pro, 22H2.
