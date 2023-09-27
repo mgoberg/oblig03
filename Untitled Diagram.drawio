@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T18:36:17.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="k1ItyXpKRqTZhUQjUhsP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T23:05:23.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wUFoDoxmqlyuL0KdfdW-" version="21.8.2" type="github">
   <diagram name="Page-1" id="VvuoPIJ9FSOECs0NZ8x5">
-    <mxGraphModel>
+    <mxGraphModel dx="1593" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-38" value="Barnefamilie / Bruker" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-39" value="Navn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-38">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-50" value="Registrering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3yBnmrFUzIpzyLVQCdMe-38" source="3yBnmrFUzIpzyLVQCdMe-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-40" value="Adresse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-38">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-41" value="Telefon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-38">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-68" value="Ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-48" target="3yBnmrFUzIpzyLVQCdMe-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-73" value="Nei" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-48" target="3yBnmrFUzIpzyLVQCdMe-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-48" value="Profil" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-49" value="Bruker bestiller&lt;br&gt;Basert på sin profil" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-48">
+          <mxGeometry x="75" y="50" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-51" value="Barnehage alternativ 2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-52" value="Plassering" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-51">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-53" value="Antall ledige plasser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-51">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-54" value="Praktisk Informasjon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-51">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-55" value="Barnehage alternativ 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-56" value="Plassering" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-55">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-57" value="Antall ledige plasser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-55">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-58" value="Praktisk Informasjon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-55">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-62" value="Ja / Nei" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-59" value="Match?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-57" target="3yBnmrFUzIpzyLVQCdMe-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-52" target="3yBnmrFUzIpzyLVQCdMe-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-75" value="Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-67" target="3yBnmrFUzIpzyLVQCdMe-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-67" value="Kontrakt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="470" y="270" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-69" value="Barnehage alternativ 3" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-70" value="Plassering" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-69">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-71" value="Antall ledige plasser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-69">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-72" value="Praktisk Informasjon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-69">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-81" value="Informasjon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-74" target="3yBnmrFUzIpzyLVQCdMe-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-74" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="450" width="85" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-78" value="Ja" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.062;entryY=0.24;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3yBnmrFUzIpzyLVQCdMe-67">
+          <mxGeometry x="0.2823" y="11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="340" />
+              <mxPoint x="320" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-79" value="Kommunen" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-80" value="&lt;h1&gt;Kommunen&lt;/h1&gt;&lt;div&gt;Samler opp data om alle barnehagene, og holder styring slik at systemet til enhver tid er oppdatert.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-79">
+          <mxGeometry x="10" y="30" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-82" value="Påmeldt i barnehage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-83" value="Informasjon til bruker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3yBnmrFUzIpzyLVQCdMe-82">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-80" target="3yBnmrFUzIpzyLVQCdMe-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBnmrFUzIpzyLVQCdMe-83" target="3yBnmrFUzIpzyLVQCdMe-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBnmrFUzIpzyLVQCdMe-102" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Gruppe 11A&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="410" width="140" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
